@@ -174,7 +174,7 @@
        o put-public-access-block
 
        o restore-object
-
+        
        o select-object-content
 
        o upload-part
@@ -183,3 +183,5 @@
 
        o wait
 
+* aws s3api create-bucket --bucket example-bucket-12345 --region us-east-1
+* 
