@@ -10,6 +10,9 @@
 * docker ps -a (docker containers)
 * docker ps (docker running container)
 
+#### Kubernates Commands
+* kube nodes
+
 #### aws cli commands
 ###### AWS S3 major commands
 * aws s3api help
