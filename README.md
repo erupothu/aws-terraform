@@ -6,6 +6,9 @@
 * terraform destroy
 * terraform fmt
 * terraform validate
+* terraform show
+* terraform state list
+* terraform destroy
 
 #### Docker commands
 * docker images
