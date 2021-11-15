@@ -9,6 +9,7 @@
 * terraform show
 * terraform state list
 * terraform destroy
+* terraform output
 
 #### Docker commands
 * docker images
