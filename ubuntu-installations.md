@@ -2,7 +2,8 @@
 #### install AWS Client
 * sudo apt install aws-cli 
 * aws --version
-* aws configure
+* aws configure (access key + secret key)
+* nano ~/.aws/credentials (check config credentials)
 
 #### Install Terraform
 * sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
