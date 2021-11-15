@@ -10,6 +10,7 @@
 * terraform state list
 * terraform destroy
 * terraform output
+* terraform login
 
 #### Docker commands
 * docker images
