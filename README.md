@@ -4,6 +4,8 @@
 * terraform init (initialize)
 * terraform apply (deploy)
 * terraform destroy
+* terraform fmt
+* terraform validate
 
 #### Docker commands
 * docker images
