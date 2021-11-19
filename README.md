@@ -1,6 +1,8 @@
 # aws-terraform
 
 #### Terrafrom commands
+* rm -rf .terraform*
+* rem -rf terraform.tfstate*
 * terraform init (initialize)
 * terraform apply (deploy)
 * terraform destroy
