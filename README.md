@@ -28,6 +28,57 @@
 * eksctl delete cluster --name ak-eks-playground --region eu-west-1
 * eksctl get nodegroup --cluster ak-eks-playground --region eu-central-1
 
+#### HELM
+* Install and Uninstall Apps
+  * helm install [app-name] [chart]
+  * helm install [app-name] [chart] --namespace [namespace] # Install an app in a specific namespace:
+  * helm install [app-name] [chart] --values [yaml-file/url] # Override the default values with those specified in a file of your choice:
+  * helm install [app-name] --dry-run --debug # Run a test installation to validate and verify the chart:
+  * helm uninstall [release] # Uninstall a release:
+* Perform App Upgrade and Rollback
+  * helm upgrade [release] [chart]
+  * helm upgrade [release] [chart] --atomic # Instruct Helm to rollback changes if the upgrade fails:
+  * helm upgrade [release] [chart] --install # Upgrade a release. If it does not exist on the system, install it:
+  * helm upgrade [release] [chart] --version [version-number] #Upgrade to a specified version
+  * helm rollback [release] [revision] # Roll back a release:
+* Download Release Information
+  * helm get all [release]
+  * helm get hooks [release]
+  * helm get manifest [release]
+  * helm get notes [release] # Download the notes:
+  * helm get values [release] # Download the values file:
+  * helm history [release] # Fetch release history:
+* Add, Remove, and Update Repositories
+  * helm repo list
+  * helm repo index
+  * helm search [keyword]
+  * helm search repo [keyword]
+  * helm search hub [keyword]
+* Release Monitoring
+  * helm list
+  * helm list --all-namespaces
+  * helm list --namespace [namespace]
+  * helm list --output [format]
+  * helm list --filter '[expression]'
+  * helm status [release]
+  * helm history [release]
+  * helm env
+* Plugin Management
+  * helm plugin install [path/url1] [path/url2] ...
+  * helm plugin list
+  * helm plugin update [plugin1] [plugin2] ...
+  * helm plugin uninstall [plugin]
+* Chart Management
+  * helm create [name]
+  * helm package [chart-path]
+  * helm lint [chart]
+  * helm show all [chart]
+  * helm show chart [chart]
+  * helm show values [chart]
+  * helm pull [chart]
+  * helm pull [chart] --untar --untardir [directory]
+  * helm dependency list [chart]
+
 #### Docker commands
 * docker images
 * docker build -t anuragkapur/node-docker-hello-world .
