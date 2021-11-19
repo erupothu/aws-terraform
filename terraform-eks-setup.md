@@ -1,18 +1,17 @@
 ### Prerequisites:
 * Prerequisites
-  * Accounts:
-		* AWS Account (Cloud Infrastructure As Service IAS)
-		* Terraform Account (Infrastructure Management As Code IAC)
-		* Docker Hub Account (Docker Containers and Images management)
-		* GitHub Account (Code Management & version Control)
-		* Helm Account (Apps Management)
-		
-	* Local Machine Installs
-		* AWS CLI (Manage AWS Cloud Services from Local) -- `apt install awscli` and `apt install aws-iam-authenticator`
-		* Terraform (Manage Cloud Service from Local Code Setup .tf files)
-		* Kuberantes (Manage Cloud Apps from Local commands) `install kubernetes-cli`
-		* Docker (Manage Cloud Docker containers and Images from Local commands)
-		* Helm (Manage Cloud Apps from Local Helm Charts)
+	* AWS Account (Cloud Infrastructure As Service IAS)
+	* Terraform Account (Infrastructure Management As Code IAC)
+	* Docker Hub Account (Docker Containers and Images management)
+	* GitHub Account (Code Management & version Control)
+	* Helm Account (Apps Management)
+
+* Local Machine Installs
+	* AWS CLI (Manage AWS Cloud Services from Local) -- `apt install awscli` and `apt install aws-iam-authenticator`
+	* Terraform (Manage Cloud Service from Local Code Setup .tf files)
+	* Kuberantes (Manage Cloud Apps from Local commands) `install kubernetes-cli`
+	* Docker (Manage Cloud Docker containers and Images from Local commands)
+	* Helm (Manage Cloud Apps from Local Helm Charts)
 
 #### Working Process Verified (working)
 * git clone https://github.com/hashicorp/learn-terraform-provision-eks-cluster # GIT URL
