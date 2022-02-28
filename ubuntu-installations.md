@@ -21,4 +21,17 @@
 * __Terraform Registry__: 
   * https://registry.terraform.io/providers/hashicorp/helm/latest
 
-
+### Install Minikube
+* curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+* echo "deb http://apt.kubernetes.io/ kubernetes-xenial main" | tee /etc/apt/sources.list.d/kubernetes.list
+* apt-get update -y
+* apt-get install kubectl kubeadm kubectl -y
+* sudo chmod 666 /var/run/docker.sock
+* minikube start --driver=docker
+* kubectl cluster-info
+* kubectl config view
+* kubectl get nodes
+* minikube status
+* minikube addons list
+* kubectl get pods --all-namespaces
+* minikube dashboard --url
