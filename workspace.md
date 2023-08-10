@@ -2,9 +2,9 @@
 
 #### create workspace
 
-> terraform workspace new projectA
-> terraform workspace list
-> terraform workspace projectB
+> terraform workspace new projectA  
+> terraform workspace list  
+> terraform workspace projectB  
 
 
 ```variables.tf
@@ -32,7 +32,7 @@ resource "aws_instance" "porjectA" {
   }
 }
 ```
-> terraform workspace select projectA
-> terraform apply
-> tree terraform.tfstate.d
+> terraform workspace select projectA  
+> terraform apply  
+> tree terraform.tfstate.d  
 > 
